@@ -4,8 +4,11 @@
 
 answer_list = []
 
-answer_list.append(1)
-answer_list.append(2)
-answer_list.append(3)
+def make_list():
+    answer_list.append(1)
+    answer_list.append(2)
+    answer_list.append(3)
 
-print(len(answer_list))
+    return len(answer_list)
+
+print(make_list())
